@@ -1,0 +1,127 @@
+/* basic elements */
+	
+#indexBody{background:#ffffff;margin:0;padding:0;}
+
+
+  
+
+	#container{
+       margin-top:220px;margin-left:110px;padding:0 0 0 0;width:770px;
+	  }
+	   
+	
+	p { text-indent : 2em; text-align :left;}	
+	
+	p.lastp {padding-bottom:40px;}
+
+/*定义导航栏样式  */
+		#menu{
+		z-index:5;
+	  width:600px;height:210px;
+	 margin-top:30px;
+	   margin-left:220px;
+	   
+	  
+	  }
+	#firstul   a:link { 
+	font-weight: bold; 
+	text-decoration:underline; 
+	color:black;
+	}
+
+ #firstul a:visited { 
+	font-weight: bold; 
+	text-decoration:underline; 
+	color:black;
+	}
+ #firstul a:hover{
+  text-decoration :none ; font-size : 1.05em ;
+   }
+	
+	#menu .footballIcon{display:none;}
+	#menu ul{list-style:none;}
+	#menu li.doublenormalli{display:block; width:80px; font-size:0.8em;text-align:center; margin-bottom:10px; float:left;}
+		#menu li.singlenormalli{display:block;width:80px; font-size:0.8em;text-align:center;margin-bottom:10px;float:left;}
+	
+	#secondmenu {display:none; margin-top:10px;}
+	#secondmenu ul{ margin:0;}
+	#secondmenu li{ width:100px;display:block;margin:0;padding:0; font-size:0.9em;text-align:center; height:20px;  }
+	#secondmenu a:link{font-weight: bold; 
+	text-decoration:underline; color:green; }
+	#secondmenu a:visited{font-weight: bold; 
+	text-decoration:underline; color:green;}
+	#secondmenu a:hover{text-decoration:none;}
+/*结束定义导航栏样式*/
+	
+
+	
+	/* 这里开始定义sideBar样式*/
+		#sideBar{
+  margin-top:0;
+    width:190px;
+	margin-left:26px;;
+
+	  }
+	  #sideBar p{line-height:20px ;}
+	  #sideBarTop{height:100px;width:200px;}
+    #sideBarPic {height:100px;background-position:center;background-repeat:no-repeat;padding:0;margin:0;}
+	#sideBar .titleSideBar a:link {font-weight:bold;color:white;font-size : 0.8em ;}
+	#sideBar .titleSideBar a:visited {font-weight:bold;color:white;font-size : 0.8em ;}
+	#sideBar .titleSideBar a:hover {text-decoration :none ;}
+     
+	#sideBar .contentSideBar a:link{color:black;text-decoration:underline;font-size : 0.8em ;}
+	#sideBar .contentSideBar a:visited{color:black;text-decoration:underline;font-size : 0.8em ;}
+	#sideBar .contentSideBar a:hover{text-decoration:none}
+	/* 这里结束定义sideBar的链接样式,hover继承*/
+	
+	/*定义主体内容样式*/
+	#content{
+	overflow:hidden;
+	visibility:hidden;
+	width:530px;
+	 display:block;
+	 background-color:#c5f7a5;
+	 position:absolute;
+	 top:400px;
+	 left:330px;
+	
+	}
+	#content p{margin-right:30px;margin-left:20px;}
+	#content #all{padding-left:30px; padding-right:30px;}
+	/*结束定义主体内容样式*/
+	
+	
+	
+	#footer{ margin-top:100px; height:150px; width:1000px;}
+	
+		
+		 #extra1 { z-index:-1;;height:195px;width:300px;background:url(../img/style3/header.png) no-repeat;position:absolute;left:330px; top:0px;}
+		
+	 #extra2 {
+	  z-index:-1;
+	height:1500px;
+	width:200px;
+	background:url(../img/style3/summary_bg.gif) no-repeat;
+	position:absolute;
+	left:130px;
+	top:0px;
+}
+
+			 #extra3 {
+			  z-index:-1;
+	height:904px;
+	width:530px;
+	background: url(../img/style3/intro_bg.gif) no-repeat;
+	position:absolute;
+	top:195px;
+	left: 330px;
+}
+ #extra4 {
+ z-index:-1;
+	height:1285px;
+	width:175px;
+	background: url(../img/style3/container_bg.gif) no-repeat;
+	position:absolute;
+	top:0px;
+	left: -45px;
+}

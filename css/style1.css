@@ -1,0 +1,111 @@
+
+
+#indexBody{margin:0;padding:0; background:url(../img/style1/body.jpg) repeat-x;}
+	
+  hr {color:#000099}
+  
+	
+	
+	#container{
+       margin-top:180px;margin-left:190px;padding:0 0 0 0;width:770px; 
+	}
+	
+	p { text-indent : 2em; text-align :left;}	
+	
+	
+
+          
+		#menu{
+	  width:100px;float:right;height:320px;
+	  }
+	#menu   a:link { 
+	font-weight: bold; 
+	text-decoration:underline; 
+	color:#FF9900;
+	}
+
+ #menu a:visited { 
+	font-weight: bold; 
+	text-decoration:underline; 
+	color:#FF9900;
+	}
+ #menu a:hover{
+  text-decoration :none ; font-size : 1.05em ;
+   }
+   
+   #secondmenu   a:link { 
+
+	color:#FFffff;
+	}
+
+ #secondmenu a:visited { 
+
+	color:#FFffff;
+	}
+ 
+   
+	
+	#menu ul{list-style:none;}
+	#menu li.doublenormalli{display:block;margin:0; width:80px; font-size:0.8em;text-align:left; height:40px;}
+		#menu li.singlenormalli{display:block;margin:0; width:80px; font-size:0.8em;text-align:left; height:40px;}
+		#secondmenu { display:none;margin-top:10px;width:150px;}
+		#secondmenu ul{ margin:0;}
+         #secondmenu li{margin:0;padding:0;}
+	#menu li.footballIcon{ display:none;}
+	
+
+             
+	
+
+	
+
+	
+	/* 这里开始定义sideBar样式*/
+		#sideBar{
+		
+    width:640px;
+	margin:10px 0 0 0;
+	padding:0 0 0 0;
+	  float:left;
+	  display:block;
+	  }
+	  #sideBar .oneside{width:140px;float:left;}
+	  #sideBar p{line-height:20px ; padding-right:10px;}
+	  #sideBarTop{height:100px;width:150px;float:left; margin-right:20px;}
+    #sideBarPic {height:100px;background-position:center;background-repeat:no-repeat;padding:0;margin:0;}
+	#sideBar .titleSideBar { text-indent:0;}
+	#sideBar .titleSideBar a:link {font-weight:bold;color:white;font-size : 0.8em ;}
+	#sideBar .titleSideBar a:visited {font-weight:bold;color:white;font-size : 0.8em ;}
+	#sideBar .titleSideBar a:hover {text-decoration :none ;}
+     
+	#sideBar .contentSideBar a:link{color:black;text-decoration:underline;font-size : 0.8em ;}
+	#sideBar .contentSideBar a:visited{color:black;text-decoration:underline;font-size : 0.8em ;}
+	#sideBar .contentSideBar a:hover{text-decoration:none}
+	/* 这里结束定义sideBar的链接样式,hover继承*/
+	
+	/*定义主体内容样式*/
+	#content{
+     
+   clear:both;
+	visibility:hidden;
+	width:530px;
+	 display:block;
+ color:white;
+	}
+	#content .t2{ color:white;}
+	#content p{margin-right:30px;margin-left:20px;}
+	
+	#content #all{padding-left:30px; padding-top:30px;}
+	/*结束定义主体内容样式*/
+	
+	
+	
+	#extra2{  height:195px; width:500px; background:url(../img/style1/shitou.gif) no-repeat left bottom; margin-bottom:0;}
+	
+
+
+#extra1{ background:url(../img/style1/topbg.jpg) no-repeat left; position:absolute; left:0px; top:0px; width:1255px;height:171px;}
+#extra5{Z-INDEX: 3; BACKGROUND: url(../img/style1/fish1.gif) no-repeat; left: 750px; WIDTH:180px; TOP: 800px; HEIGHT: 80px; position:absolute;}
+#extra6{Z-INDEX: 3; BACKGROUND: url(../img/style1/fish2.gif) no-repeat; left:0px; WIDTH:224px; TOP: 500px; HEIGHT: 110px; position:absolute;}
+
+.divider1{ width:1px;height:200px; background-color:#000033; float:left; margin-right:10px;}
